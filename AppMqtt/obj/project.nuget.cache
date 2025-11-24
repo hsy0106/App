@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3WTRumMr+zc=",
+  "success": true,
+  "projectFilePath": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\通信测试\\WindowsFormsApp1\\AppMqtt\\AppMqtt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XMGY\\.nuget\\packages\\mqttnet\\4.3.7.1207\\mqttnet.4.3.7.1207.nupkg.sha512"
+  ],
+  "logs": []
+}

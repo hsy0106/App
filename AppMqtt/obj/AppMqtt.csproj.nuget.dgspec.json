@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\通信测试\\WindowsFormsApp1\\AppMqtt\\AppMqtt.csproj": {}
+  },
+  "projects": {
+    "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\通信测试\\WindowsFormsApp1\\AppMqtt\\AppMqtt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\通信测试\\WindowsFormsApp1\\AppMqtt\\AppMqtt.csproj",
+        "projectName": "AppMqtt",
+        "projectPath": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\通信测试\\WindowsFormsApp1\\AppMqtt\\AppMqtt.csproj",
+        "packagesPath": "C:\\Users\\XMGY\\.nuget\\packages\\",
+        "outputPath": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\通信测试\\WindowsFormsApp1\\AppMqtt\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\XMGY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.7.1207, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

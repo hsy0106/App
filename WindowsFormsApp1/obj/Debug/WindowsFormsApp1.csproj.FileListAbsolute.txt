@@ -1,0 +1,139 @@
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\艾尔克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\艾德克斯仪器\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.IT6700_IT8800Form.resources
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ItechForm.resources
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\东莞豪迪\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TcpForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\SqlSugar.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Net.Http.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChatForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChatServerForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CinemaSeatsForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EventForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.GraphForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HeadlinesForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.IT6700_IT8800Form.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ItechForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TcpForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TreeForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.WebBrowserForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\App.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Serilog.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Serilog.Sinks.File.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Serilog.Sinks.Console.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netstandard.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Channels.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Memory.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\App.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\App.dll.config
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Serilog.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Serilog.Sinks.File.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Serilog.Sinks.Console.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Channels.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Memory.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+E:\WorkProject\Device\2025\Various miscellaneous\仪器测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChatForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChatServerForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CinemaSeatsForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EventForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.GraphForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.HeadlinesForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ItechForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TcpForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TreeForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.WebBrowserForm.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.观察者模式.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\SqlSugar.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Net.Http.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Channels.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Memory.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Channels.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Memory.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\StackExchange.Redis.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\StackExchange.Redis.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.IO.Pipelines.xml
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.App.resources
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Diagnostics.PerformanceCounter.xml

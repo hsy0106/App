@@ -1,0 +1,3 @@
+2025-10-10 15:53:55 [INF] Server started on port 8081
+2025-10-10 15:53:58 [INF] Client connected: 127.0.0.1:63381
+2025-10-10 15:54:04 [INF] 127.0.0.1:63381:asdasd

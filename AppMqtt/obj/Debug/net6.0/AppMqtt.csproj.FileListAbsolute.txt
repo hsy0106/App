@@ -1,0 +1,12 @@
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\bin\Debug\net6.0\AppMqtt.deps.json
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\bin\Debug\net6.0\AppMqtt.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\bin\Debug\net6.0\AppMqtt.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\AppMqtt.csproj.AssemblyReference.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\AppMqtt.GeneratedMSBuildEditorConfig.editorconfig
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\AppMqtt.AssemblyInfoInputs.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\AppMqtt.AssemblyInfo.cs
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\AppMqtt.csproj.CoreCompileInputs.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\AppMqtt.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\refint\AppMqtt.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\AppMqtt.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net6.0\ref\AppMqtt.dll

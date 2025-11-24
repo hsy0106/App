@@ -1,0 +1,9 @@
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\bin\Debug\net461\AppMqtt.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.csproj.CoreCompileInputs.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.AssemblyInfo.cs
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\bin\Debug\net461\AppMqtt.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\bin\Debug\net461\MQTTnet.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.dll
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.pdb
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.csprojAssemblyReference.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.csproj.CopyComplete

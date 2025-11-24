@@ -1,0 +1,212 @@
+﻿using AppMqtt.AppMqtt;
+using MQTTnet;
+using MQTTnet.Client;
+
+using MQTTnet.Protocol;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AppMqtt
+{
+    public class MqttServer : IMqttService, IDisposable
+    {
+        private IMqttClient _mqttClient;
+        private IMqttClientOptions _clientOptions;
+        private MqttOptions _currentOptions;
+        private bool _isDisposed = false;
+
+        public bool IsConnected => _mqttClient?.IsConnected == true;
+
+        public event EventHandler<bool> ConnectionStatusChanged;
+        public event EventHandler<MqttMessageEventArgs> MessageReceived;
+
+        public MqttServer()
+        {
+            InitializeClient();
+        }
+
+        private void InitializeClient()
+        {
+            var factory = new MqttFactory();
+            _mqttClient = factory.CreateMqttClient();
+
+            // 注册事件处理
+            _mqttClient.ConnectedHandler = new MqttClientConnectedHandlerDelegate(OnConnected);
+            _mqttClient.DisconnectedHandler = new MqttClientDisconnectedHandlerDelegate(OnDisconnected);
+            _mqttClient.ApplicationMessageReceivedHandler = new MqttApplicationMessageReceivedHandlerDelegate(OnMessageReceived);
+        }
+
+        public async Task<bool> ConnectAsync(MqttOptions options)
+        {
+            if (_mqttClient == null)
+                InitializeClient();
+
+            if (_mqttClient.IsConnected)
+                await _mqttClient.DisconnectAsync();
+
+            _currentOptions = options;
+
+            var builder = new MqttClientOptionsBuilder()
+                .WithClientId(options.ClientId)
+                .WithTcpServer(options.Server, options.Port)
+                .WithTimeout(TimeSpan.FromSeconds(options.Timeout))
+                .WithKeepAlivePeriod(TimeSpan.FromSeconds(options.KeepAlive));
+
+            // 设置认证信息
+            if (!string.IsNullOrEmpty(options.Username))
+            {
+                builder.WithCredentials(options.Username, options.Password);
+            }
+
+            // 设置TLS
+            if (options.UseTls)
+            {
+                builder.WithTls();
+            }
+
+            // 设置自动重连
+            if (options.AutoReconnect)
+            {
+                builder.WithAutoReconnectDelay(TimeSpan.FromMilliseconds(options.ReconnectDelay));
+            }
+
+            _clientOptions = builder.Build();
+
+            try
+            {
+                var result = await _mqttClient.ConnectAsync(_clientOptions);
+                return result.ResultCode == MqttClientConnectResultCode.Success;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"MQTT连接失败: {ex.Message}");
+                return false;
+            }
+        }
+
+        public async Task DisconnectAsync()
+        {
+            if (_mqttClient?.IsConnected == true)
+            {
+                await _mqttClient.DisconnectAsync();
+            }
+        }
+
+        public async Task<bool> SubscribeAsync(string topic, int qos = 1)
+        {
+            if (_mqttClient?.IsConnected != true)
+                return false;
+
+            try
+            {
+                var qosLevel = (MqttQualityOfServiceLevel)Math.Clamp(qos, 0, 2);
+                var result = await _mqttClient.SubscribeAsync(new MqttTopicFilter
+                {
+                    Topic = topic,
+                    QualityOfServiceLevel = qosLevel
+                });
+
+                return result.Items.Count > 0;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"订阅主题失败: {ex.Message}");
+                return false;
+            }
+        }
+
+        public async Task<bool> UnsubscribeAsync(string topic)
+        {
+            if (_mqttClient?.IsConnected != true)
+                return false;
+
+            try
+            {
+                await _mqttClient.UnsubscribeAsync(topic);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"取消订阅失败: {ex.Message}");
+                return false;
+            }
+        }
+
+        public async Task<bool> PublishAsync(string topic, string payload, int qos = 1, bool retain = false)
+        {
+            var payloadBytes = Encoding.UTF8.GetBytes(payload);
+            return await PublishAsync(topic, payloadBytes, qos, retain);
+        }
+
+        public async Task<bool> PublishAsync(string topic, byte[] payload, int qos = 1, bool retain = false)
+        {
+            if (_mqttClient?.IsConnected != true)
+                return false;
+
+            try
+            {
+                var message = new MqttApplicationMessage
+                {
+                    Topic = topic,
+                    Payload = payload,
+                    QualityOfServiceLevel = (MqttQualityOfServiceLevel)Math.Clamp(qos, 0, 2),
+                    Retain = retain
+                };
+
+                await _mqttClient.PublishAsync(message);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"发布消息失败: {ex.Message}");
+                return false;
+            }
+        }
+
+        private void OnConnected(MqttClientConnectedEventArgs e)
+        {
+            ConnectionStatusChanged?.Invoke(this, true);
+            System.Diagnostics.Debug.WriteLine("MQTT连接成功");
+        }
+
+        private void OnDisconnected(MqttClientDisconnectedEventArgs e)
+        {
+            ConnectionStatusChanged?.Invoke(this, false);
+            System.Diagnostics.Debug.WriteLine("MQTT连接断开");
+        }
+
+        private void OnMessageReceived(MqttApplicationMessageReceivedEventArgs e)
+        {
+            var payload = e.ApplicationMessage.Payload == null
+                ? string.Empty
+                : Encoding.UTF8.GetString(e.ApplicationMessage.Payload);
+
+            var eventArgs = new MqttMessageEventArgs(
+                e.ApplicationMessage.Topic,
+                payload,
+                e.ApplicationMessage.Payload,
+                (int)e.ApplicationMessage.QualityOfServiceLevel,
+                e.ApplicationMessage.Retain
+            );
+
+            MessageReceived?.Invoke(this, eventArgs);
+        }
+
+        public void Dispose()
+        {
+            if (!_isDisposed)
+            {
+                _mqttClient?.Dispose();
+                _isDisposed = true;
+            }
+        }
+
+        public Task<bool> ConnectAsync(MqttOptions options)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
