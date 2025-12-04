@@ -172,5 +172,5 @@ E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\A
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTools\bin\Debug\System.Diagnostics.PerformanceCounter.xml
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTools\bin\Debug\System.IO.Pipelines.xml
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTools\bin\Debug\System.Threading.Channels.xml
-E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTools\obj\Debug\AppTools.csprojAssemblyReference.cache
-E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTools\obj\Debug\AppTools.csproj.CopyComplete
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTools\obj\Debug\AppTools.csproj.AssemblyReference.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTools\obj\Debug\AppTools.csproj.Up2Date

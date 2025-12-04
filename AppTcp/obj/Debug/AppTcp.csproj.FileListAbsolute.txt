@@ -3,4 +3,4 @@ E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\A
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTcp\bin\Debug\AppTcp.pdb
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTcp\obj\Debug\AppTcp.dll
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTcp\obj\Debug\AppTcp.pdb
-E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTcp\obj\Debug\AppTcp.csprojAssemblyReference.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppTcp\obj\Debug\AppTcp.csproj.AssemblyReference.cache

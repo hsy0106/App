@@ -162,6 +162,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -175,6 +176,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="EndianSwitching.cs" />
+    <Compile Include="ExportExport\ExcelExportServer.cs" />
+    <Compile Include="ExportExport\IExcelExport.cs" />
+    <Compile Include="ExportExport\IExport.cs" />
+    <Compile Include="Observe\IPublisher.cs" />
+    <Compile Include="Observe\Publisher.cs" />
+    <Compile Include="Observe\Subscriber.cs" />
     <Compile Include="Redis\IRedisServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serialize\Server\ExcelOperation.cs" />

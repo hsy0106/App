@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTcp", "AppTcp\AppTcp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTools", "AppTools\AppTools.csproj", "{196EB90E-A774-4EA1-8A87-A3D70C1335D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHistory", "AppHistory\AppHistory.csproj", "{44C4BCD8-7D90-4B0B-9309-B2C50E7B1CF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{196EB90E-A774-4EA1-8A87-A3D70C1335D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196EB90E-A774-4EA1-8A87-A3D70C1335D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196EB90E-A774-4EA1-8A87-A3D70C1335D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C4BCD8-7D90-4B0B-9309-B2C50E7B1CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C4BCD8-7D90-4B0B-9309-B2C50E7B1CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C4BCD8-7D90-4B0B-9309-B2C50E7B1CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C4BCD8-7D90-4B0B-9309-B2C50E7B1CF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

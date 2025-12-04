@@ -5,5 +5,8 @@ E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\A
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\bin\Debug\net461\MQTTnet.dll
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.dll
 E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.pdb
-E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.csprojAssemblyReference.cache
-E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.csproj.CopyComplete
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.csproj.AssemblyReference.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.GeneratedMSBuildEditorConfig.editorconfig
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.AssemblyInfoInputs.cache
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.sourcelink.json
+E:\WorkProject\Device\2025\Various miscellaneous\通信测试\WindowsFormsApp1\AppMqtt\obj\Debug\net461\AppMqtt.csproj.Up2Date

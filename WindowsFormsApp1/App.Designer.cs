@@ -37,6 +37,8 @@
             this.txtPubMessage = new System.Windows.Forms.RichTextBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.RedisState = new System.Windows.Forms.ToolStripStatusLabel();
+            this.MqttState = new System.Windows.Forms.ToolStripStatusLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -48,6 +50,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -57,11 +64,7 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.RedisState = new System.Windows.Forms.ToolStripStatusLabel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.MqttState = new System.Windows.Forms.ToolStripStatusLabel();
+            this.button13 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -101,13 +104,13 @@
             // 
             // txtLog
             // 
-            this.txtLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.txtLog.BackColor = System.Drawing.Color.White;
             this.txtLog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtLog.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLog.Location = new System.Drawing.Point(20, 50);
+            this.txtLog.Location = new System.Drawing.Point(6, 50);
             this.txtLog.Name = "txtLog";
             this.txtLog.ReadOnly = true;
-            this.txtLog.Size = new System.Drawing.Size(821, 150);
+            this.txtLog.Size = new System.Drawing.Size(835, 164);
             this.txtLog.TabIndex = 2;
             this.txtLog.Text = "";
             // 
@@ -115,7 +118,7 @@
             // 
             this.txtSubTopic.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSubTopic.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtSubTopic.Location = new System.Drawing.Point(460, 55);
+            this.txtSubTopic.Location = new System.Drawing.Point(347, 57);
             this.txtSubTopic.Name = "txtSubTopic";
             this.txtSubTopic.Size = new System.Drawing.Size(200, 23);
             this.txtSubTopic.TabIndex = 4;
@@ -125,7 +128,7 @@
             // 
             this.txtServer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtServer.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtServer.Location = new System.Drawing.Point(460, 20);
+            this.txtServer.Location = new System.Drawing.Point(347, 22);
             this.txtServer.Name = "txtServer";
             this.txtServer.Size = new System.Drawing.Size(200, 23);
             this.txtServer.TabIndex = 5;
@@ -136,9 +139,9 @@
             this.txtPubMessage.BackColor = System.Drawing.Color.White;
             this.txtPubMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPubMessage.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPubMessage.Location = new System.Drawing.Point(20, 50);
+            this.txtPubMessage.Location = new System.Drawing.Point(6, 50);
             this.txtPubMessage.Name = "txtPubMessage";
-            this.txtPubMessage.Size = new System.Drawing.Size(821, 100);
+            this.txtPubMessage.Size = new System.Drawing.Size(835, 114);
             this.txtPubMessage.TabIndex = 6;
             this.txtPubMessage.Text = "";
             // 
@@ -162,11 +165,23 @@
             this.lblStatus.Size = new System.Drawing.Size(62, 17);
             this.lblStatus.Text = "Tcp状态...";
             // 
+            // RedisState
+            // 
+            this.RedisState.Name = "RedisState";
+            this.RedisState.Size = new System.Drawing.Size(69, 17);
+            this.RedisState.Text = "RedisState";
+            // 
+            // MqttState
+            // 
+            this.MqttState.Name = "MqttState";
+            this.MqttState.Size = new System.Drawing.Size(65, 17);
+            this.MqttState.Text = "MqttState";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(400, 58);
+            this.label1.Location = new System.Drawing.Point(287, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 17);
             this.label1.TabIndex = 8;
@@ -176,7 +191,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(400, 23);
+            this.label2.Location = new System.Drawing.Point(287, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 17);
             this.label2.TabIndex = 9;
@@ -214,6 +229,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.PapayaWhip;
             this.groupBox1.Controls.Add(this.txtPubMessage);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -246,6 +262,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.LightPink;
             this.groupBox2.Controls.Add(this.txtLog);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -280,6 +297,8 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.button12);
+            this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.button10);
             this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.button8);
@@ -294,6 +313,81 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(847, 114);
             this.panel1.TabIndex = 15;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.ForestGreen;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Location = new System.Drawing.Point(727, 66);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(99, 35);
+            this.button12.TabIndex = 26;
+            this.button12.Text = "Excel导出";
+            this.toolTip1.SetToolTip(this.button12, "Excel");
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(505, 66);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(99, 35);
+            this.button11.TabIndex = 25;
+            this.button11.Text = "PublishAndSubscriber";
+            this.toolTip1.SetToolTip(this.button11, "Redis");
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(271, 66);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(99, 35);
+            this.button10.TabIndex = 24;
+            this.button10.Text = "RedisRead";
+            this.toolTip1.SetToolTip(this.button10, "Redis");
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Pink;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(140, 66);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(99, 35);
+            this.button9.TabIndex = 23;
+            this.button9.Text = "RedisSend";
+            this.toolTip1.SetToolTip(this.button9, "Redis");
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Gold;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Location = new System.Drawing.Point(19, 66);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(99, 35);
+            this.button8.TabIndex = 22;
+            this.button8.Text = "RedisConnect";
+            this.toolTip1.SetToolTip(this.button8, "Redis");
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -344,7 +438,7 @@
             // 
             this.txtPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPort.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtPort.Location = new System.Drawing.Point(334, 56);
+            this.txtPort.Location = new System.Drawing.Point(592, 23);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(48, 23);
             this.txtPort.TabIndex = 18;
@@ -353,6 +447,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.button13);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.txtIP);
             this.panel2.Controls.Add(this.label6);
@@ -372,7 +467,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(296, 58);
+            this.label7.Location = new System.Drawing.Point(554, 25);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(32, 17);
             this.label7.TabIndex = 18;
@@ -397,62 +492,20 @@
             this.label6.TabIndex = 17;
             this.label6.Text = "IP";
             // 
-            // button8
+            // button13
             // 
-            this.button8.BackColor = System.Drawing.Color.Gold;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(19, 66);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(99, 35);
-            this.button8.TabIndex = 22;
-            this.button8.Text = "RedisConnect";
-            this.toolTip1.SetToolTip(this.button8, "Redis");
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Pink;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(140, 66);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(99, 35);
-            this.button9.TabIndex = 23;
-            this.button9.Text = "RedisSend";
-            this.toolTip1.SetToolTip(this.button9, "Redis");
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // RedisState
-            // 
-            this.RedisState.Name = "RedisState";
-            this.RedisState.Size = new System.Drawing.Size(69, 17);
-            this.RedisState.Text = "RedisState";
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(271, 66);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(99, 35);
-            this.button10.TabIndex = 24;
-            this.button10.Text = "RedisRead";
-            this.toolTip1.SetToolTip(this.button10, "Redis");
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // MqttState
-            // 
-            this.MqttState.Name = "MqttState";
-            this.MqttState.Size = new System.Drawing.Size(65, 17);
-            this.MqttState.Text = "MqttState";
+            this.button13.BackColor = System.Drawing.Color.ForestGreen;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(712, 15);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(99, 35);
+            this.button13.TabIndex = 27;
+            this.button13.Text = "配置文件读取";
+            this.toolTip1.SetToolTip(this.button13, "Excel");
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // App
             // 
@@ -519,5 +572,8 @@
         private System.Windows.Forms.ToolStripStatusLabel RedisState;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.ToolStripStatusLabel MqttState;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
     }
 }

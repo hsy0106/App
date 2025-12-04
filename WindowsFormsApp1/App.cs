@@ -1,8 +1,14 @@
-﻿using AppMqtt;
+﻿using App.Server;
+using AppMqtt;
 using AppTcp;
 using AppTools;
+using AppTools.ExportExport;
+using AppTools.Observe;
 using AppTools.Serialize.Server;
 using AppTools.Serialize.XmlEntity;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,15 +19,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using StackExchange.Redis;
 using static AppTools.Serialize.Server.ExcelOperation;
-using Newtonsoft.Json;
 
 namespace WindowsFormsApp1
 {
     public partial class App : Form
     {
-      
+
+
         private IMqttService _mqtt;
         private ITcpService _tcp;
 
@@ -509,6 +514,56 @@ namespace WindowsFormsApp1
             {
                 txtLog.AppendText($"获取键列表失败: {ex.Message}\r\n");
             }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+
+            IPublisher<string> publisher = new Publisher<string>();
+            ISubscriber<string> sub1 = new Subscriber<string>("小明");
+            ISubscriber<string> sub2 = new Subscriber<string>("小红");
+
+            sub1.Subscribe(publisher);
+            sub2.Subscribe(publisher);
+
+            publisher.Publish("明天有雨");
+
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            List<ExportData> data = new List<ExportData>();
+            for (int i = 1; i <= 3; i++)
+            {
+                ExportData ed = new ExportData
+                {
+                    Id = i.ToString(),
+                    SN = "SN" + i.ToString("D4"),
+                    Strength = 50 + i * 0.5,
+
+                };
+                data.Add(ed);
+            }
+
+
+            var exporter = new ExcelExportServer<ExportData>(data);
+            exporter.ExportToExcel(data);
+
+        }
+
+        private class ExportData 
+        { 
+
+            public string Id { get; set; }
+            public string SN { get; set; }
+            public double Strength { get; set; }
+        }
+        //读取INI文件
+        private void button13_Click(object sender, EventArgs e)
+        {
+            string value = InIServer.Read("Server", "Host");
         }
     }
 }
