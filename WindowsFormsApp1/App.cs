@@ -3,6 +3,8 @@ using AppMqtt;
 using AppTcp;
 using AppTools;
 using AppTools.ExportExport;
+using AppTools.MQ;
+using AppTools.MQ.Topic;
 using AppTools.Observe;
 using AppTools.Serialize.Server;
 using AppTools.Serialize.XmlEntity;
@@ -564,6 +566,36 @@ namespace WindowsFormsApp1
         private void button13_Click(object sender, EventArgs e)
         {
             string value = InIServer.Read("Server", "Host");
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            //var mq = new TopicMessageQueue<string>();
+            //var producer = new Producer<string>(mq);
+            //var consumerA = new Consumer<string>("A", mq, "order");
+            //consumerA.Start();
+            //producer.Send("order", "订单 #1 已创建");
+
+            var mq = new TopicMessageQueue<OrderCreated>();
+
+            var producer = new Producer<OrderCreated>(mq);
+            var consumer = new Consumer<OrderCreated>("OrderHandler", mq, "order");
+            consumer.Start();
+
+            producer.Send("order", new OrderCreated
+            {
+                OrderId = 1001,
+                Time = DateTime.Now
+            });
+
+        }
+        public class OrderCreated
+        {
+            public int OrderId { get; set; }
+            public DateTime Time { get; set; }
+
+            public override string ToString()
+                => $"OrderId={OrderId}, Time={Time}";
         }
     }
 }

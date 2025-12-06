@@ -179,6 +179,11 @@
     <Compile Include="ExportExport\ExcelExportServer.cs" />
     <Compile Include="ExportExport\IExcelExport.cs" />
     <Compile Include="ExportExport\IExport.cs" />
+    <Compile Include="MQ\Consumer.cs" />
+    <Compile Include="MQ\Topic\Message.cs" />
+    <Compile Include="MQ\MessageQueue.cs" />
+    <Compile Include="MQ\Producer.cs" />
+    <Compile Include="MQ\Topic\TopicMessageQueue.cs" />
     <Compile Include="Observe\IPublisher.cs" />
     <Compile Include="Observe\Publisher.cs" />
     <Compile Include="Observe\Subscriber.cs" />

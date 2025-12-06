@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{196EB90E-A774-4EA1-8A87-A3D70C1335D6}|AppTools\\AppTools.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\apptools\\mq\\topic\\topicmessagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196EB90E-A774-4EA1-8A87-A3D70C1335D6}|AppTools\\AppTools.csproj|solutionrelative:apptools\\mq\\topic\\topicmessagequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E551152-0DEB-46EE-8DA4-39F901A19F31}|WindowsFormsApp1\\WindowsFormsApp1.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\windowsformsapp1\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E551152-0DEB-46EE-8DA4-39F901A19F31}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\app\\server\\iniserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|solutionrelative:app\\server\\iniserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{196EB90E-A774-4EA1-8A87-A3D70C1335D6}|AppTools\\AppTools.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\apptools\\mq\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196EB90E-A774-4EA1-8A87-A3D70C1335D6}|AppTools\\AppTools.csproj|solutionrelative:apptools\\mq\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E551152-0DEB-46EE-8DA4-39F901A19F31}|WindowsFormsApp1\\WindowsFormsApp1.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\windowsformsapp1\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1E551152-0DEB-46EE-8DA4-39F901A19F31}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E551152-0DEB-46EE-8DA4-39F901A19F31}|WindowsFormsApp1\\WindowsFormsApp1.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E551152-0DEB-46EE-8DA4-39F901A19F31}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\app\\server\\logserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|solutionrelative:app\\server\\logserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\app\\server\\publiceventserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|solutionrelative:app\\server\\publiceventserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\app\\server\\sqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|solutionrelative:app\\server\\sqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\app\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD8D7CA8-023A-40FA-9BF4-0C355863BABC}|App\\App.csproj|solutionrelative:app\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{196EB90E-A774-4EA1-8A87-A3D70C1335D6}|AppTools\\AppTools.csproj|e:\\workproject\\device\\2025\\various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\windowsformsapp1\\apptools\\mq\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196EB90E-A774-4EA1-8A87-A3D70C1335D6}|AppTools\\AppTools.csproj|solutionrelative:apptools\\mq\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,106 +50,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InIServer.cs",
-              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\InIServer.cs",
-              "RelativeDocumentMoniker": "App\\Server\\InIServer.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\InIServer.cs",
-              "RelativeToolTip": "App\\Server\\InIServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:14:27.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LogServer.cs",
-              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\LogServer.cs",
-              "RelativeDocumentMoniker": "App\\Server\\LogServer.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\LogServer.cs",
-              "RelativeToolTip": "App\\Server\\LogServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:14:24.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PublicEventServer.cs",
-              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\PublicEventServer.cs",
-              "RelativeDocumentMoniker": "App\\Server\\PublicEventServer.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\PublicEventServer.cs",
-              "RelativeToolTip": "App\\Server\\PublicEventServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:14:22.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SQLServer.cs",
-              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\SQLServer.cs",
-              "RelativeDocumentMoniker": "App\\Server\\SQLServer.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Server\\SQLServer.cs",
-              "RelativeToolTip": "App\\Server\\SQLServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:14:22.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Class1.cs",
-              "RelativeDocumentMoniker": "App\\Class1.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\App\\Class1.cs",
-              "RelativeToolTip": "App\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:14:17.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAMwBcAAAAAAAAAAAAAAA==",
+              "Title": "Producer.cs",
+              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\AppTools\\MQ\\Producer.cs",
+              "RelativeDocumentMoniker": "AppTools\\MQ\\Producer.cs",
+              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\AppTools\\MQ\\Producer.cs",
+              "RelativeToolTip": "AppTools\\MQ\\Producer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:44:29.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.cs",
-              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\WindowsFormsApp1\\App.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\App.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\WindowsFormsApp1\\App.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\App.cs",
-              "ViewState": "AgIAAB0CAAAAAAAAAAAywDICAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:36:49.081Z",
+              "WhenOpened": "2025-12-05T07:19:12.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.cs [\u8BBE\u8BA1]",
+              "Title": "Consumer.cs",
+              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\AppTools\\MQ\\Consumer.cs",
+              "RelativeDocumentMoniker": "AppTools\\MQ\\Consumer.cs",
+              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\AppTools\\MQ\\Consumer.cs",
+              "RelativeToolTip": "AppTools\\MQ\\Consumer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:19:11.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TopicMessageQueue.cs",
+              "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\AppTools\\MQ\\Topic\\TopicMessageQueue.cs",
+              "RelativeDocumentMoniker": "AppTools\\MQ\\Topic\\TopicMessageQueue.cs",
+              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\AppTools\\MQ\\Topic\\TopicMessageQueue.cs",
+              "RelativeToolTip": "AppTools\\MQ\\Topic\\TopicMessageQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:19:10.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.cs",
               "DocumentMoniker": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\WindowsFormsApp1\\App.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\App.cs",
-              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\WindowsFormsApp1\\App.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "WindowsFormsApp1\\App.cs [\u8BBE\u8BA1]",
+              "ToolTip": "E:\\WorkProject\\Device\\2025\\Various miscellaneous\\\u901A\u4FE1\u6D4B\u8BD5\\WindowsFormsApp1\\WindowsFormsApp1\\App.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\App.cs",
+              "ViewState": "AgIAAEICAAAAAAAAAADwv1sCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:36:46.824Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-12-05T07:44:22.208Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -50,6 +50,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -60,11 +61,11 @@
             this.button5 = new System.Windows.Forms.Button();
             this.txtPort = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txtIP = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.button13 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -218,7 +219,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(399, 25);
+            this.button4.Location = new System.Drawing.Point(376, 25);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 35);
             this.button4.TabIndex = 11;
@@ -297,6 +298,8 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.button13);
+            this.panel1.Controls.Add(this.button14);
             this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.button10);
@@ -313,6 +316,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(847, 114);
             this.panel1.TabIndex = 15;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Pink;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.Location = new System.Drawing.Point(622, 66);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(99, 35);
+            this.button14.TabIndex = 27;
+            this.button14.Text = "MQ";
+            this.toolTip1.SetToolTip(this.button14, "Excel");
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button12
             // 
@@ -447,7 +465,6 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.button13);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.txtIP);
             this.panel2.Controls.Add(this.label6);
@@ -462,6 +479,21 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(847, 104);
             this.panel2.TabIndex = 16;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.ForestGreen;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(376, 66);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(99, 35);
+            this.button13.TabIndex = 27;
+            this.button13.Text = "配置文件读取";
+            this.toolTip1.SetToolTip(this.button13, "Excel");
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label7
             // 
@@ -491,21 +523,6 @@
             this.label6.Size = new System.Drawing.Size(20, 17);
             this.label6.TabIndex = 17;
             this.label6.Text = "IP";
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.ForestGreen;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(712, 15);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(99, 35);
-            this.button13.TabIndex = 27;
-            this.button13.Text = "配置文件读取";
-            this.toolTip1.SetToolTip(this.button13, "Excel");
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // App
             // 
@@ -575,5 +592,6 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
     }
 }
