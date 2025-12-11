@@ -36,7 +36,7 @@ namespace App.Server
             }
             catch (Exception ex)
             {
-                LogServer.Error($"HTTP GET请求失败 | URL: {url} | 错误: {ex}");
+             
                 throw new HttpRequestException($"GET请求失败: {ex.Message}", ex);
             }
         }
@@ -45,19 +45,28 @@ namespace App.Server
         /// 发送 POST 请求
         /// </summary>
         public static async Task<string> PostAsync(
-            string url,
-            object data,
-            string contentType = "application/json",
-            Dictionary<string, string> headers = null)
+        string url,
+        object data,
+        string contentType = "application/json",
+        Dictionary<string, string> headers = null)
         {
             try
             {
                 var request = new HttpRequestMessage(HttpMethod.Post, url);
                 AddHeaders(request, headers);
 
-                string requestBody = contentType == "application/json"
-                    ? JsonConvert.SerializeObject(data)
-                    : data?.ToString() ?? string.Empty;
+                string requestBody;
+
+                // 🔥 如果 data 已经是 string（例如你传入 jsonData）
+                if (data is string s)
+                {
+                    requestBody = s;   // ⬅️ 不再序列化
+                }
+                else
+                {
+                    // 🔥 data 是对象，才序列化
+                    requestBody = JsonConvert.SerializeObject(data);
+                }
 
                 request.Content = new StringContent(requestBody, Encoding.UTF8, contentType);
 
@@ -67,10 +76,10 @@ namespace App.Server
             }
             catch (Exception ex)
             {
-                LogServer.Error($"HTTP POST请求失败 | URL: {url} | 错误: {ex}");
                 throw new HttpRequestException($"POST请求失败: {ex.Message}", ex);
             }
         }
+
 
         /// <summary>
         /// 添加请求头
