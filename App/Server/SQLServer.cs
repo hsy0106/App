@@ -1,9 +1,10 @@
-﻿using System;
+﻿using SqlSugar;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SqlSugar;
 namespace App.Server
 {
    public static class SQLServer
@@ -72,7 +73,14 @@ namespace App.Server
             // 构建对应数据库的连接字符串
             private static string BuildConnectionString(DbType dbType, string baseStr)
             {
-
+                if ((dbType == DbType.Access || dbType == DbType.Sqlite))
+                {
+                    if (!Path.IsPathRooted(baseStr))
+                    {
+                        // 将相对路径转换成绝对路径
+                        baseStr = Path.GetFullPath(baseStr);
+                    }
+                }
                 string baseTemp = null;
 
                 switch (dbType)
