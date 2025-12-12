@@ -22,6 +22,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static AppTools.Serialize.Server.ExcelOperation;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
@@ -596,6 +597,13 @@ namespace WindowsFormsApp1
 
             public override string ToString()
                 => $"OrderId={OrderId}, Time={Time}";
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            bool isAlive = PingServer.PingIPAddress("192.168.1.14");
+            txtLog.AppendText(isAlive ? "服务器在线" : "服务器离线") ;
+          
         }
     }
 }

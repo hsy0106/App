@@ -50,6 +50,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -61,11 +62,11 @@
             this.button5 = new System.Windows.Forms.Button();
             this.txtPort = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txtIP = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button15 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -142,7 +143,7 @@
             this.txtPubMessage.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPubMessage.Location = new System.Drawing.Point(6, 50);
             this.txtPubMessage.Name = "txtPubMessage";
-            this.txtPubMessage.Size = new System.Drawing.Size(835, 114);
+            this.txtPubMessage.Size = new System.Drawing.Size(835, 160);
             this.txtPubMessage.TabIndex = 6;
             this.txtPubMessage.Text = "";
             // 
@@ -153,7 +154,7 @@
             this.lblStatus,
             this.RedisState,
             this.MqttState});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 660);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 745);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(879, 22);
             this.statusStrip1.TabIndex = 7;
@@ -234,9 +235,9 @@
             this.groupBox1.Controls.Add(this.txtPubMessage);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox1.Location = new System.Drawing.Point(20, 250);
+            this.groupBox1.Location = new System.Drawing.Point(20, 279);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(847, 170);
+            this.groupBox1.Size = new System.Drawing.Size(847, 216);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "消息发布";
@@ -267,9 +268,9 @@
             this.groupBox2.Controls.Add(this.txtLog);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox2.Location = new System.Drawing.Point(20, 430);
+            this.groupBox2.Location = new System.Drawing.Point(20, 501);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(847, 220);
+            this.groupBox2.Size = new System.Drawing.Size(847, 228);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "消息日志";
@@ -298,6 +299,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.button15);
             this.panel1.Controls.Add(this.button13);
             this.panel1.Controls.Add(this.button14);
             this.panel1.Controls.Add(this.button12);
@@ -314,8 +316,23 @@
             this.panel1.Controls.Add(this.button4);
             this.panel1.Location = new System.Drawing.Point(20, 20);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(847, 114);
+            this.panel1.Size = new System.Drawing.Size(847, 143);
             this.panel1.TabIndex = 15;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.ForestGreen;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(376, 66);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(99, 35);
+            this.button13.TabIndex = 27;
+            this.button13.Text = "配置文件读取";
+            this.toolTip1.SetToolTip(this.button13, "Excel");
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -475,25 +492,10 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.txtSubTopic);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(20, 140);
+            this.panel2.Location = new System.Drawing.Point(20, 169);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(847, 104);
             this.panel2.TabIndex = 16;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.ForestGreen;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(376, 66);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(99, 35);
-            this.button13.TabIndex = 27;
-            this.button13.Text = "配置文件读取";
-            this.toolTip1.SetToolTip(this.button13, "Excel");
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label7
             // 
@@ -524,12 +526,27 @@
             this.label6.TabIndex = 17;
             this.label6.Text = "IP";
             // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Gold;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(19, 107);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(99, 35);
+            this.button15.TabIndex = 28;
+            this.button15.Text = "Ping";
+            this.toolTip1.SetToolTip(this.button15, "Redis");
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(879, 682);
+            this.ClientSize = new System.Drawing.Size(879, 767);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
@@ -593,5 +610,6 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
     }
 }
